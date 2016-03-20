@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrefigueira\Laramailer\Models;
+namespace Laramailer\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Andrefigueira\Laramailer\Models\Traits\HasUuid;
+use Laramailer\Models\Traits\HasUuid;
 
 /**
  * Class Email

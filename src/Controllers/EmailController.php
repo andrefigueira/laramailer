@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrefigueira\Laramailer\Controllers;
+namespace Laramailer\Controllers;
 
 use App\Http\Requests;
+use Laramailer\Models\Email;
 use App\Http\Controllers\Controller;
-use Andrefigueira\Laramailer\Models\Email;
 
 /**
  * Class EmailController

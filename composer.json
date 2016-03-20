@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Andrefigueira\\Laramailer\\": "packages/andrefigueira/laramailer/src"
+            "Laramailer\\": "src/"
         }
     }
 }

@@ -1,3 +1,3 @@
 <?php
 
-Route::get('email/preview/{id}', 'Andrefigueira\Laramailer\Controllers\EmailController@show');
+Route::get('email/preview/{id}', 'Laramailer\Controllers\EmailController@show');

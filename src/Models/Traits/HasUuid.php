@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrefigueira\Laramailer\Models\Traits;
+namespace Laramailer\Models\Traits;
 
 use Uuid;
 
