@@ -1,0 +1,15 @@
+{
+    "name": "andrefigueira/laramailer",
+    "description": "A simple mailing package using Laravel Mail and Blade for sending emails with an expressive syntax, and also the ability to store emails in a database for future viewing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Figueira",
+            "email": "andre.figueira@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ramsey/uuid": "^2.8"
+    }
+}
