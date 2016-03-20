@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrefigueira\Laramailer\Utility;
+namespace Laramailer\Utility;
 
 use Mail;
-use Andrefigueira\Laramailer\Models\Email;
+use Laramailer\Models\Email;
 
 /**
  * Class Mailer
