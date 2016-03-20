@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrefigueira\Laramailer\Providers;
+namespace Laramailer\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -33,6 +33,6 @@ class LaramailerServiceProvider extends ServiceProvider
     {
         include dirname(__DIR__) . '/routes.php';
 
-        $this->app->make('Andrefigueira\Laramailer\Controllers\EmailController');
+        $this->app->make('Laramailer\Controllers\EmailController');
     }
 }
