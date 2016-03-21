@@ -29,6 +29,10 @@ Run `php artisan migrate` to install the emails table
     
     MAIL_NOREPLY=noreply@email.com
     MAIL_NOREPLY_NAME=ServiceName
+    
+### Mail setup
+
+Be sure to configure your mail driver too! I recommend mailgun
 
 ## Usage
 
