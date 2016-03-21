@@ -23,7 +23,7 @@ class EmailController extends Controller
     {
         $email = Email::where(['id' => $id])->firstOrFail();
 
-        $previewLink = action('\Andrefigueira\Laramailer\Controllers\EmailController@show', ['id' => $id]);
+        $previewLink = action('\Laramailer\Controllers\EmailController@show', ['id' => $id]);
 
         return view($email->template, $email, ['previewLink' => $previewLink]);
     }
