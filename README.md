@@ -25,6 +25,11 @@ Run `php artisan vendor:publish` to copy the views and migrations
 
 Run `php artisan migrate` to install the emails table
 
+### Add the config variables to your env file
+    
+    MAIL_NOREPLY=noreply@email.com
+    MAIL_NOREPLY_NAME=ServiceName
+
 ## Usage
 
     use Laramailer\Utility\Mailer;
