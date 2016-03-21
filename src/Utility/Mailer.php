@@ -131,7 +131,7 @@ class Mailer
         $email = Email::create($saveData);
 
         // Finishing touches on data
-        $saveData['previewLink'] = action('Frontend\EmailController@show', ['id' => $email->id]);
+        $saveData['previewLink'] = action('Laramailer\Controllers\EmailController@show', ['id' => $email->id]);
         $saveData['content'] = json_decode($saveData['content'], true);
 
         $sendVerb = 'send';
