@@ -13,6 +13,10 @@ Add the `LaramailerServiceProvider` to your `config/app.php`
 
     Laramailer\Providers\LaramailerServiceProvider::class
     
+Add the `Uuid` class as an alias in your `config/app.php`
+
+    'Uuid'      => Rhumsaa\Uuid\Uuid::class,
+    
 ### Migrations and views publish
     
 Run `php artisan vendor:publish` to copy the views and migrations
