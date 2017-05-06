@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ramsey/uuid": "^2.8"
+        "ramsey/uuid": "3.*.*"
     },
     "autoload": {
         "psr-4": {
